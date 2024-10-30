@@ -1,0 +1,53 @@
+:root {
+    --color-1: #f5b848;
+    --color-2: #c8533e;
+    --color-3: #9e413e;
+    --color-4: #742f3f;
+    --color-5: #4b1d40;
+}
+
+.bg-color-1 {
+    background-color: var(--color-1);
+}
+
+.bg-color-2 {
+    background-color: var(--color-2);
+}
+
+.bg-color-3 {
+    background-color: var(--color-3);
+}
+
+.bg-color-4 {
+    background-color: var(--color-4);
+}
+
+.bg-color-5 {
+    background-color: var(--color-5);
+}
+
+.hero {
+    padding-top: 80px; /* Lo que ocupa el header */
+}
+
+#contenedorHeader {
+    .logo {
+        width: 250px;
+        margin: 20px 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
