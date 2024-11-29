@@ -26,13 +26,12 @@ document.querySelectorAll(".product .btn").forEach(($card) => {
 })
 
 // FONDO
-const imgRuta = "../img/hero.webp";
-const imgWidth = 1920;
-const imgHeight = 1280;
+// const imgRuta = "../img/hero.webp";
+// const imgWidth = 1920;
+// const imgHeight = 1280;
 
-window.addEventListener("resize", () => {
-    // document.body.style.backgroundSize = '';
-})
+// window.addEventListener("resize", () => {
+// })
 
 // TEST
 // document.addEventListener("DOMContentLoaded", () => { $bsModal.show() })

@@ -252,6 +252,23 @@ height:auto;
     }
 }
 
+.carousel-indicators [data-bs-target] {
+    aspect-ratio: 1 / 1;
+    height: auto;
+    border-top: none;
+    border-bottom: none;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: var(--color-3);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/carousel-control-prev-icon.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/carousel-control-next-icon.svg");
+}
+
 main {
     padding-bottom: 12vw;
     flex-grow: 1;
